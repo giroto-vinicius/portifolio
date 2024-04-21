@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
+    padding: 15px 15px;
 }
 
 .cabecalho .logo {
@@ -102,24 +102,24 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #9443d8;
+    color: #9443d8;         
     border: 1px solid #9443d8;
     transform: scale(1.1);
 }
 
 .home .container-foto .foto {
-    max-width: 450px;
-    border-radius: 50%;
+    max-width: 350px;
+    border-radius: 40%;
 }
 
 .home .container-foto img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 40%;
 
 }
 
 .home .foto.sombra-interna {
-    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+    background: linear-gradient(to right, #1A031C, #76108D, #1A031C);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 
